@@ -22,13 +22,28 @@ public class App
         String pswd;
         pswd=myObj.nextLine();
         System.out.println("The password is"+pswd);
-        System.out.println("\n1.View the cars");
-        System.out.println("\n2.Make offer");
-        System.out.println("\n3.View the cars that you own");
-        System.out.println("\n4.View Payments");
-        System.out.println("Enter your option");
-        int opt=myObj.nextInt();
-        System.out.println("The option is"+opt);
+        do {
+            System.out.println("\n\n       Menu");
+            System.out.println("--------------------------------------");
+            System.out.println("1-View The Cars");
+            System.out.println("2-Make offer for car");
+            System.out.println("3-View the cars that I own");
+            System.out.print("\nSelect a Menu Option: ");
+        try {
+            int input = myObj.nextInt(); // Get user input from the keyboard 
+
+
+            switch (input) {
+            case 1:  System.out.println("You have choosen 1");
+                     break;
+            case 2:  // do something
+                     break;
+          
+           }
+          } catch (NumberFormatException e) {  }
+
+        }
+        while(true); // Display the menu until the user closes the program
       
         
     }
