@@ -25,11 +25,24 @@ public class App
        
         else if((c=='n')||(c=='N')) {
         	System.out.println("Create an account");
+        	createAccount();
         }
         
        
     }
-    public static void Login() {
+    public static void createAccount() {
+		// TODO Auto-generated method stub
+    	Scanner myobj=new Scanner(System.in);
+    	System.out.println("Create an account");
+    	System.out.println("Enter your email id");
+    	String emailId=myobj.nextLine();
+    	System.out.println("Enter your username");
+    	String uname=myobj.nextLine();
+    	System.out.println("Enter a password");
+    	String pswd=myobj.nextLine();
+		
+	}
+	public static void Login() {
 		// TODO Auto-generated method stub
     	String UserName;
     	String Runame="admin";
