@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
     	while(true) {
-        System.out.println("First Project\n");
+        System.out.println("Main Menu\n");
         System.out.println("-----------------");
         Scanner myObj = new Scanner(System.in);
    
